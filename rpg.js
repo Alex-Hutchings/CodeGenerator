@@ -10,8 +10,6 @@ if(document.getElementById("knight").checked= true){
 	document.getElementById("mana").value = mana;
 	document.getElementById("dexterity").value = dexterity;
 	document.getElementById("intelligence").value = intelligence;
-	document.getElementById("image").style.display = "block";
-	document.getElementById("image").src = "images/knight.png";
 	}
 }
 function wizardStats(){
@@ -25,8 +23,7 @@ if(document.getElementById("wizard").checked = true){
 	document.getElementById("mana").value = mana;
 	document.getElementById("dexterity").value = dexterity;
 	document.getElementById("intelligence").value = intelligence;
-	document.getElementById("image").style.display = "block";
-	document.getElementById("image").src = "images/wizardM.png";
+
 	}
 }
 function archerStats(){
@@ -40,8 +37,7 @@ if(document.getElementById("archer").checked = true){
 	document.getElementById("mana").value = mana;
 	document.getElementById("dexterity").value = dexterity;
 	document.getElementById("intelligence").value = intelligence;
-	document.getElementById("image").style.display = "block";
-	document.getElementById("image").src = "images/archer.png";
+
 	}
 }
 function thiefStats(){
@@ -55,12 +51,24 @@ if(document.getElementById("thief").checked = true){
 	document.getElementById("mana").value = mana;
 	document.getElementById("dexterity").value = dexterity;
 	document.getElementById("intelligence").value = intelligence;
-	document.getElementById("image").style.display = "block";
-	document.getElementById("image").src = "images/thief.jpeg";
+
 	}
 }
 
 function genderChoice(){
-	if(document.getElementById("knight").checked = true && document.getElementById("male").checked = true){
-		document.getElementById("image").src = "images/knight.png";
+	if(document.getElementById("male").checked = true){
+		document.getElementById("image").style.display = "block";
+		document.getElementById("image").src = "images/knight.png";}
+
+	else if(document.getElementById("knight").checked = true && document.getElementById("female").checked = true){
+		document.getElementById("image").style.display = "block";
+		document.getElementById("image").src = "images/knightF.png";}
+
+	else if(document.getElementById("wizard").checked = true && document.getElementById("male").checked = true){
+		document.getElementById("image").style.display = "block";
+		document.getElementById("image").src = "images/wizardM.png";}
+
+	else if(document.getElementById("wizard").checked = true && document.getElementById("female").checked = true){
+		document.getElementById("image").style.display = "block";
+		document.getElementById("image").src = "images/wizardF.png";}
 }
