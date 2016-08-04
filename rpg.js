@@ -1,6 +1,5 @@
-//name="class"
-//values = Knight, Wizard, Archer, Thief
-//ids = knight, wizard, archer, thief
+//Created by codeGenerator.com
+
 function classStats(){
 if(document.getElementById("knight").checked= true){
 	var health = "100";
@@ -12,6 +11,7 @@ if(document.getElementById("knight").checked= true){
 	document.getElementById("mana").value = mana;
 	document.getElementById("dexterity").value = dexterity;
 	document.getElementById("intelligence").value = intelligence;
+	document.getElementById("image").value = "images/knight.jpg";
 	}
 }
 function wizardStats(){
@@ -25,6 +25,7 @@ if(document.getElementById("wizard").checked = true){
 	document.getElementById("mana").value = mana;
 	document.getElementById("dexterity").value = dexterity;
 	document.getElementById("intelligence").value = intelligence;
+	document.getElementById("image").value = "images/wizard.jpg";
 	}
 }
 function archerStats(){
@@ -38,6 +39,7 @@ if(document.getElementById("archer").checked = true){
 	document.getElementById("mana").value = mana;
 	document.getElementById("dexterity").value = dexterity;
 	document.getElementById("intelligence").value = intelligence;
+	document.getElementById("image").value = "images/archer.jpg";
 	}
 }
 function thiefStats(){
@@ -51,5 +53,6 @@ if(document.getElementById("thief").checked = true){
 	document.getElementById("mana").value = mana;
 	document.getElementById("dexterity").value = dexterity;
 	document.getElementById("intelligence").value = intelligence;
+	document.getElementById("image").value = "images/thief.jpg";
 	}
 }
