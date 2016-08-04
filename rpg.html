@@ -16,12 +16,13 @@
 	<fieldset name="classes">
 	<legend><h3>Create Your character</h3></legend>
 	<p>Character Name: <input id="charName" type="text" name="characterName"></p><br>
+	<img id="image" width="200" height="300" hidden>
 	<h3>Pick your class</h3>
 	<div id="classesDiv">
 		<ul id="classButtons">
 	  	<input id="knight" type="radio" name="class" value="knight" onclick="classStats()">Knight
   		<input id="wizard"type="radio" name="class" value="wizard"onclick="wizardStats()" >Wizard
- 		<input id"archer" type="radio" name="class" value="archer" onclick="archerStats()">Archer
+ 		<input id="archer" type="radio" name="class" value="archer" onclick="archerStats()">Archer
  		<input id="thief" type="radio" name="class" value="thief" onclick="thiefStats()">Thief <br>
  	</ul>
  	</div>
@@ -44,7 +45,7 @@
  		</ul>
  	</div>
  	<input type="submit" name="submitChars" id="submitCharacter" value="Create Character">
- 	<img id="image" src="images/knight.jpg" width="200" height="200">
+ 	
 	</fieldset>
 
 </form>
