@@ -59,3 +59,8 @@ if(document.getElementById("thief").checked = true){
 	document.getElementById("image").src = "images/thief.jpeg";
 	}
 }
+
+function genderChoice(){
+	if(document.getElementById("knight").checked = true && document.getElementById("male").checked = true){
+		document.getElementById("image").src = "images/knight.png";
+}
