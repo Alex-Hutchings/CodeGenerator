@@ -1,0 +1,80 @@
+#example1{
+	width: 100%;
+}
+body{background: #7B68EE;
+font-size: 100%;
+font-family: courier;
+letter-spacing: 0.15em;
+color:#000066;
+width: 90%;
+margin:0 auto;}
+
+#h2{margin:10px auto 0px auto;}
+h3{margin:10px auto 0px auto;}
+td{text-align: left;}
+tr{font-weight: bold; text-align: center;}
+dt{font-weight: bold;}
+button.active{background-color: blue;}
+#page{
+	max-width: 940px;
+	min-width: 720px;
+	margin:10px auto 10px auto;
+	padding:20px;
+	border:4px double #000;
+	background-color: #ffffff;
+}
+
+#logo{
+	width: 30%;
+	margin: 10px auto 10px auto;
+}
+#top{margin:10px auto 10px 15%;}
+#menu{
+	width: 570px;
+	padding:15px;
+	margin:0px auto 0px auto;
+	border-top: 2px solid #000;
+	border-bottom: 2px solid #000;
+	text-align: center;
+}
+#image{
+	float: right;
+	margin:0 auto; 
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+#baseStats
+a:hover, a.on {
+	color:black;
+	background-color: yellow;
+}
+#submitCharacter{
+	margin-left: 0%;
+}
+
+#leftSide{position: fixed;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+#rightSide{position: fixed;
+    right: 0px;
+    top: 0px;
+    z-index: -1;
+}

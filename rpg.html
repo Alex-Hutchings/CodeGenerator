@@ -1,0 +1,55 @@
+<!DOCTYPE html >
+<html lang=”en”>
+<head>
+<link rel='stylesheet' type ='text/css' href='rpgStyle.css'/><!--links to my style sheet-->
+<title>codegenerator.com</title>
+<meta charset="utf-8" />
+</head>
+<body>
+	<script type="text/javascript" src="rpg.js"></script>
+<!--headers-->
+<h1 id="top">RPG Character Creator</h1>
+
+<!--Page contents-->
+<div id ="page">
+<form name="rpg" method="POST">
+	<fieldset name="classes">
+	<legend><h3>Create Your character</h3></legend>
+	<p>Character Name: <input id="charName" type="text" name="characterName"></p><br>
+	<h3>Pick your class</h3>
+	<div id="classesDiv">
+		<ul id="classButtons">
+	  	<input id="knight" type="radio" name="class" value="knight" onclick="classStats()">Knight
+  		<input id="wizard"type="radio" name="class" value="wizard"onclick="wizardStats()" >Wizard
+ 		<input id"archer" type="radio" name="class" value="archer" onclick="archerStats()">Archer
+ 		<input id="thief" type="radio" name="class" value="thief" onclick="thiefStats()">Thief <br>
+ 	</ul>
+ 	</div>
+	<div id="skillsDiv">
+		<legend><h3>Pick your characters skills</h3></legend>
+		<ul id="skillButtons">
+  		<input type="text" name="skill1" id="skill1"> e.g. Bartering<br>
+		<input type="text" name="skill2" id="skill2"><br>
+		<input type="text" name="skill3" id="skill3"><br>
+		<input type="text" name="skill4" id="skill4"><br>
+ 	</ul>
+ 	</div>
+ 	<legend><h3>Base Stats based upon class selection</h3></legend>
+ 	<div id="baseStats">
+ 		<ul id="baseStats">
+ 		<input id="health" type="text" name="health" disabled>Health<br>
+ 		<input id="mana" type="text" name="mana"disabled>Mana<br>
+ 		<input id="dexterity" type="text" name="dexterity"disabled>Dexterity<br>
+ 		<input id="intelligence" type="text" name="intelligence"disabled>Intelligence</p>
+ 		</ul>
+ 	</div>
+ 	<input type="submit" name="submitChars" id="submitCharacter" value="Create Character">
+ 	<img id="image" src="images/knight.jpg" width="200" height="200">
+	</fieldset>
+
+</form>
+</div>
+</body>
+
+
+</html>
