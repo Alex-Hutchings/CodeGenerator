@@ -17,6 +17,17 @@
 	<legend><h3>Create Your character</h3></legend>
 	<p>Character Name: <input id="charName" type="text" name="characterName"></p><br>
 	<img id="image" width="200" height="300" hidden>
+
+ 	<h3>Pick your gender</h3>
+	<div id="genderDiv">
+		<ul id="genderbutts">
+			<select id="genderSelect" name="genders">
+				<option id="male" value="male">Male</option>
+				<option id="female" value="female">Female</option>
+			</select>
+ 	</ul>
+ 	</div>
+
 	<h3>Pick your class</h3>
 	<div id="classesDiv">
 		<ul id="classButtons">
@@ -26,13 +37,7 @@
  		<input id="thief" type="radio" name="class" value="thief" onclick="thiefStats()">Thief <br>
  	</ul>
  	</div>
- 	<h3>Pick your gender</h3>
-	<div id="genderDiv">
-		<ul id="genderbutts">
-	  	<input id="male" type="radio" name="gender" value="male" onclick="genderChoice()">Male
-  		<input id="female"type="radio" name="gender" value="female"onclick="genderChoice()">Female
- 	</ul>
- 	</div>
+
 	<div id="skillsDiv">
 		<legend><h3>Pick your characters skills</h3></legend>
 		<ul id="skillButtons">
